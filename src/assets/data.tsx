@@ -1,4 +1,6 @@
-import { FaHtml5, FaJs, FaReact, FaNodeJs} from 'react-icons/fa';
+import { FaHtml5,  FaReact, FaNodeJs} from 'react-icons/fa';
+import { BiLogoPostgresql, BiLogoMongodb } from "react-icons/bi";
+import { SiJavascript } from "react-icons/si";
 
 export const links = [
     {id:1, href:'#home', text:'home'},
@@ -13,19 +15,19 @@ export const skills = [
     {
       id: 1,
       title: 'HTML&CSS',
-      icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
+      icon: <FaHtml5 className='h-16 w-16 text-orange-500' />,
       text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
     },
     {
       id: 2,
       title: 'Javascript',
-      icon: <FaJs className='h-16 w-16 text-emerald-500' />,
+      icon: <SiJavascript className='h-16 w-16 bg-black text-yellow-300' />,
       text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
     },
     {
       id: 3,
       title: 'React',
-      icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+      icon: <FaReact className='h-16 w-16 text-cyan-300' />,
       text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
     },
     {
@@ -33,7 +35,21 @@ export const skills = [
         title:'Node Js',
         icon:<FaNodeJs className='h-16 w-16 text-emerald-500' />,
         text: 'Advanced proficiency in Node Js, developing efficient and interactive backend applications with a strong emphasis.'
-    }
+    },
+    {
+        id:5,
+        title:'Postgres SQL',
+        icon:<BiLogoPostgresql className='h-16 w-16 text-blue-700'/>,
+        text:"I am an experienced PostgreSQL SQL developer with a strong command of database design, query optimization, and performance tuning."
+    },
+    {
+        id:6,
+        title:'Mongo DB',
+        icon:<BiLogoMongodb className='h-16 w-16 text-green-700'/>,
+        text:"I specialize in MongoDB development, with a strong command of database schema design, query optimization, and performance tuning. I am skilled in using MongoDB's document-oriented model to create scalable and efficient solutions. My expertise includes working with complex data structures, implementing data validation and aggregation pipelines"
+    },
+    
+
   ];
   
   export const projects = [
