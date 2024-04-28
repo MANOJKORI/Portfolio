@@ -15,7 +15,7 @@ export const Info = () => {
                 crafting seamless experinces, from front-end finesse to back-end brilliance
                 </p>
                 <div className="flex gap-x-4 mt-4">
-                    <a href="https://github.com/MANOJKORI">
+                    <a href="https://github.com/MANOJKORI" target="_blank">
                     <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
                     </a>
                 </div>
